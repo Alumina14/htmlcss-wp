@@ -351,6 +351,7 @@ footer ul li{
   width: 50%;
   float: left;
   border-top: 1px solid lightgrey;
+  height: 80px;
 }
 
 .sottofooter2{
@@ -359,4 +360,29 @@ footer ul li{
   width: 50%;
   float: right;
   border-top: 1px solid lightgrey;
+  height: 80px;
+}
+
+i.fab{
+  color: lightgrey;
+  font-size: 30px;
+  margin:0 5px;
+  float: right;
+
+}
+
+i.fas{
+  color: lightgrey;
+  font-size: 30px;
+  margin:0 5px;
+  float: right;
+
+}
+
+i.fas:hover{
+  color: grey;
+}
+
+i.fab:hover{
+  color: grey;
 }
