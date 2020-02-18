@@ -1,0 +1,286 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  margin: 0 45px;
+  background-image: url("../img/pattern.png");
+  background-repeat: repeat;
+}
+
+.stileheader{
+
+  height: 220px;
+  background-image: url("../img/logo.jpg");
+  background-size: cover;
+  margin-top: 20px;
+  border: 12px solid white;
+  border-radius: 2px;
+  position: relative;
+}
+/* .stilenav{
+  height: 50px;
+  background-color: #504840;
+  margin-bottom: 20px;
+
+} */
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 3em;
+  font-weight: 600;
+}
+
+.stileptitle{
+  color: white;
+  text-transform: uppercase;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%,-50%);
+}
+/* HO FATTO UN CASINO CON IL NAV PRINCIPALE. DA RIVEDERE TUTTO */
+.classeul {
+  text-transform: uppercase;
+  list-style-type: none;
+  background-color: #504840;
+  text-align: center;
+  padding: 4px;
+  margin-bottom: 20px;
+  border-radius: 2px;
+}
+
+.classeulli{
+  display: inline-block;
+  padding: 4px;
+}
+/* da rivedere */
+/* li a:hover{
+  background-color: #302C27;
+  padding: 8px;
+} */
+
+.classeullia{
+  text-decoration: none;
+  color: white;
+
+}
+/* HO FATTO UN CASINO CON IL NAV PRINCIPALE. DA RIVEDERE TUTTO */
+
+main{
+
+}
+
+.stilemain::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*INIZIO ASIDE DI SINISTRA */
+.left{
+  width: 25%;
+  float: left;
+
+}
+
+.divleft{
+background-color: white;
+width: 100%;
+margin-bottom: 25px;
+border-radius: 2px;
+box-shadow: 8px;
+}
+
+.divleft ul li {
+  display: block;
+  background-color: white;
+  color: green;
+  padding: 8px 15px;
+}
+
+.divleft ul li a{
+text-decoration: none;
+color: green;
+
+}
+.divleft h4{
+  padding: 4px 15px;
+  color: black;
+}
+.divleft2{
+background-color: white;
+width: 100%;
+margin-bottom: 25px;
+border-radius: 2px;
+box-shadow: 8px;
+}
+
+.divleft2 h4{
+  padding: 4px 15px;
+  color: black;
+}
+
+.divleft2 ul li a{
+text-decoration: none;
+color: green;
+}
+
+.divleft2 ul li a{
+text-decoration: none;
+color: green;
+
+}
+.divleft2 ul li {
+  display: block;
+  background-color: white;
+  color: green;
+  padding: 8px 15px;
+}
+.divleft3{
+  background-color: white;
+  width: 100%;
+  border-radius: 2px;
+  box-shadow: 8px;
+}
+
+.divleft3 h4{
+  padding: 4px 15px;
+  color: black;
+}
+
+.divleft3 ul li a{
+text-decoration: none;
+color: green;
+}
+
+.divleft3 ul li a{
+text-decoration: none;
+color: green;
+
+}
+.divleft3 ul li {
+  display: block;
+  background-color: white;
+  color: green;
+  padding: 8px 15px;
+}
+
+/*FINE ASIDE DI SINISTRA */
+
+.stilesection{
+  background-color: white;
+  width: 40%;
+  float: left;
+  margin: 0 5%;
+}
+
+.sfondodiv{
+  background-image: url("../img/div1.jpg");
+  background-size: cover;
+  height: 245px;
+}
+/* INIZIO ASIDE DI DESTRA */
+
+.right{
+  width: 25%;
+  float: left;
+}
+
+.divright{
+background-color: white;
+width: 100%;
+margin-bottom: 25px;
+border-radius: 2px;
+box-shadow: 8px;
+padding: 8px 20px;
+}
+
+.divright input{
+  padding: 8px 15px;
+  color: #50493F;
+}
+
+.divright button{
+color: #50493F;
+padding: 8px;
+}
+
+.divright2{
+background-color: white;
+width: 100%;
+margin-bottom: 25px;
+border-radius: 2px;
+box-shadow: 8px;
+
+}
+
+.divright2 h4{
+  padding: 4px 15px;
+  color: black;
+}
+
+.divright2 a{
+text-decoration: none;
+color: green;
+padding-left: 15px;
+font-size: 24px;
+}
+
+/* FINE ASIDE DI DESTRA */
+
+footer{
+  /* DEBUG: Inizio */
+  background-color: grey;
+  height: 200px;
+/* DEBUG: Fine */
+  margin-top: 20px;
+}
+
+.divfooter{
+  background-color: red;
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+
+.divfooter2{
+  background-color: blue;
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+.divfooter3{
+  background-color: green;
+  height: 120px;
+  width: 20%;
+  float: left;
+}
+
+.divfooter4{
+  background-color: yellow;
+  height: 120px;
+  width: 40%;
+  float: left;
+}
+
+.sottofooter{
+  background-color: black;
+  height: 80px;
+  width: 50%;
+  float: left;
+}
+
+.sottofooter2{
+  background-color: red;
+  height: 80px;
+  width: 50%;
+  float: right;
+}
