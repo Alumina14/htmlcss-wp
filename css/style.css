@@ -175,18 +175,68 @@ color: green;
 
 /*FINE ASIDE DI SINISTRA */
 
+/*articolo*/
 .stilesection{
   background-color: white;
   width: 40%;
   float: left;
   margin: 0 5%;
+  border-radius: 2px;
+  box-shadow: 8px;
 }
 
-.sfondodiv{
+.sfondodiv1{
   background-image: url("../img/div1.jpg");
   background-size: cover;
   height: 245px;
+  margin: 20px 0;
 }
+
+.sfondodiv2{
+  background-image: url("../img/div2.jpg");
+  background-size: cover;
+  height: 245px;
+  margin: 20px 0;
+}
+
+.sfondodiv3{
+  background-image: url("../img/div3.jpg");
+  background-size: cover;
+  height: 245px;
+  margin: 20px 0;
+}
+
+.sfondodiv4{
+  background-image: url("../img/div4.jpg");
+  background-size: cover;
+  height: 245px;
+  margin: 20px 0;
+}
+
+.article1{
+  padding-bottom: 20px;
+}
+
+article h2 {
+  padding: 4px 15px;
+}
+
+article a{
+  color: green;
+  text-decoration: none;
+}
+
+article p{
+  padding: 4px 15px;
+}
+
+hr{
+width: 90%;
+margin:auto;
+margin-top: 20px;
+}
+/*articolo*/
+
 /* INIZIO ASIDE DI DESTRA */
 
 .right{
