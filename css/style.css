@@ -8,6 +8,8 @@ body{
   margin: 0 45px;
   background-image: url("../img/pattern.png");
   background-repeat: repeat;
+  line-height: 16px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .stileheader{
@@ -112,7 +114,7 @@ color: green;
 
 }
 .divleft h4{
-  padding: 4px 15px;
+  padding: 16px 15px;
   color: black;
 }
 .divleft2{
@@ -124,7 +126,7 @@ box-shadow: 8px;
 }
 
 .divleft2 h4{
-  padding: 4px 15px;
+  padding: 16px 15px;
   color: black;
 }
 
@@ -152,7 +154,7 @@ color: green;
 }
 
 .divleft3 h4{
-  padding: 4px 15px;
+  padding: 16px 15px;
   color: black;
 }
 
@@ -218,7 +220,8 @@ color: green;
 }
 
 article h2 {
-  padding: 4px 15px;
+  padding: 16px 15px;
+  line-height: 28px;
 }
 
 article a{
@@ -273,7 +276,7 @@ box-shadow: 8px;
 }
 
 .divright2 h4{
-  padding: 4px 15px;
+  padding: 16px 15px;
   color: black;
 }
 
@@ -287,50 +290,73 @@ font-size: 24px;
 /* FINE ASIDE DI DESTRA */
 
 footer{
-  /* DEBUG: Inizio */
-  background-color: grey;
-  height: 200px;
-/* DEBUG: Fine */
   margin-top: 20px;
+  border-radius: 2px;
+  box-shadow: 8px;
+  line-height: 20px;
+}
+
+footer h4{
+  padding: 8px 15px;
+  color: black;
+  font-weight: lighter;
+  font-size: 18px;
+}
+footer a{
+  color: lightgrey;
+  text-decoration: none;
+}
+footer p{
+  color: lightgrey;
+  padding-right: 20px;
+  padding-top: 4px;
+}
+
+footer ul li{
+  list-style-type: none;
+  display: block;
+  padding: 8px;
 }
 
 .divfooter{
-  background-color: red;
-  height: 120px;
+  background-color: white;
   width: 20%;
   float: left;
+  height: 310px;
 }
 
 .divfooter2{
-  background-color: blue;
-  height: 120px;
+  background-color: white;
   width: 20%;
   float: left;
+  height: 310px;
 }
 .divfooter3{
-  background-color: green;
-  height: 120px;
+  background-color: white;
   width: 20%;
   float: left;
+  height: 310px;
 }
 
 .divfooter4{
-  background-color: yellow;
-  height: 120px;
+  background-color: white;
   width: 40%;
   float: left;
+  height: 310px;
 }
 
 .sottofooter{
-  background-color: black;
-  height: 80px;
+  background-color: white;
+  padding: 20px;
   width: 50%;
   float: left;
+  border-top: 1px solid lightgrey;
 }
 
 .sottofooter2{
-  background-color: red;
-  height: 80px;
+  background-color: white;
+  padding: 20px;
   width: 50%;
   float: right;
+  border-top: 1px solid lightgrey;
 }
